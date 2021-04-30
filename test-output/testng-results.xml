@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19959" started-at="2021-04-30T02:20:07 CEST" finished-at="2021-04-30T02:20:27 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19959" started-at="2021-04-30T02:20:07 CEST" finished-at="2021-04-30T02:20:27 CEST">
+      <class name="Tests.Login_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.Login_Test@5a8806ef]" name="setup" is-config="true" duration-ms="2980" started-at="2021-04-30T02:20:07 CEST" finished-at="2021-04-30T02:20:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successfulLogin()[pri:1, instance:Tests.Login_Test@5a8806ef]" name="successfulLogin" duration-ms="7368" started-at="2021-04-30T02:20:10 CEST" finished-at="2021-04-30T02:20:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="takeScreenshots(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@5a8806ef]" name="takeScreenshots" is-config="true" duration-ms="251" started-at="2021-04-30T02:20:17 CEST" finished-at="2021-04-30T02:20:18 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLogin status=SUCCESS method=Login_Test.successfulLogin()[pri:1, instance:Tests.Login_Test@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshots -->
+        <test-method status="PASS" signature="logInWithBlankUsername()[pri:2, instance:Tests.Login_Test@5a8806ef]" name="logInWithBlankUsername" duration-ms="886" started-at="2021-04-30T02:20:18 CEST" finished-at="2021-04-30T02:20:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithBlankUsername -->
+        <test-method status="PASS" signature="takeScreenshots(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@5a8806ef]" name="takeScreenshots" is-config="true" duration-ms="46" started-at="2021-04-30T02:20:18 CEST" finished-at="2021-04-30T02:20:18 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithBlankUsername status=SUCCESS method=Login_Test.logInWithBlankUsername()[pri:2, instance:Tests.Login_Test@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshots -->
+        <test-method status="PASS" signature="logInWithBlankPassword()[pri:3, instance:Tests.Login_Test@5a8806ef]" name="logInWithBlankPassword" duration-ms="1155" started-at="2021-04-30T02:20:18 CEST" finished-at="2021-04-30T02:20:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithBlankPassword -->
+        <test-method status="PASS" signature="takeScreenshots(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@5a8806ef]" name="takeScreenshots" is-config="true" duration-ms="29" started-at="2021-04-30T02:20:20 CEST" finished-at="2021-04-30T02:20:20 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithBlankPassword status=SUCCESS method=Login_Test.logInWithBlankPassword()[pri:3, instance:Tests.Login_Test@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshots -->
+        <test-method status="PASS" signature="logInWithInvalidUsername()[pri:4, instance:Tests.Login_Test@5a8806ef]" name="logInWithInvalidUsername" duration-ms="4153" started-at="2021-04-30T02:20:20 CEST" finished-at="2021-04-30T02:20:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidUsername -->
+        <test-method status="PASS" signature="takeScreenshots(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@5a8806ef]" name="takeScreenshots" is-config="true" duration-ms="33" started-at="2021-04-30T02:20:24 CEST" finished-at="2021-04-30T02:20:24 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithInvalidUsername status=SUCCESS method=Login_Test.logInWithInvalidUsername()[pri:4, instance:Tests.Login_Test@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshots -->
+        <test-method status="PASS" signature="logInWithWrongPassword()[pri:5, instance:Tests.Login_Test@5a8806ef]" name="logInWithWrongPassword" duration-ms="2115" started-at="2021-04-30T02:20:24 CEST" finished-at="2021-04-30T02:20:26 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithWrongPassword -->
+        <test-method status="PASS" signature="takeScreenshots(org.testng.ITestResult)[pri:0, instance:Tests.Login_Test@5a8806ef]" name="takeScreenshots" is-config="true" duration-ms="29" started-at="2021-04-30T02:20:26 CEST" finished-at="2021-04-30T02:20:26 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithWrongPassword status=SUCCESS method=Login_Test.logInWithWrongPassword()[pri:5, instance:Tests.Login_Test@5a8806ef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshots -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.Login_Test@5a8806ef]" name="close" is-config="true" duration-ms="853" started-at="2021-04-30T02:20:26 CEST" finished-at="2021-04-30T02:20:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Tests.Login_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
