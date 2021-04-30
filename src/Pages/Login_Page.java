@@ -84,15 +84,18 @@ public class Login_Page extends Basic_Page {
 		String message = driver.findElement(By.xpath("//*[@data-testid='emailRequired']")).getText();
 		return message;
 	}
+
 	public String getMessagePasswordRequired() {
 		String message = driver.findElement(By.xpath("//*[@data-testid='passwordRequired']")).getText();
 		return message;
 	}
+
 	public String getMessageInvalidEmail() {
 		String message = driver.findElement(By.xpath("//*[@data-testid='emailIncorrect']")).getText();
 		return message;
 	}
-	public String getMessageWrongPassword() {
+
+	public String getMessageWrongCredentials() {
 		String message = driver.findElement(By.xpath("//*[@data-testid='infoWrongCredentials']")).getText();
 		return message;
 	}

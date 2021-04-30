@@ -59,7 +59,7 @@ public class Login_Test extends Basic_Test {
 		this.driver.navigate().to(url);
 		this.loginPage.logIn(username, "Barbara");
 		Thread.sleep(1000);
-		Assert.assertTrue(this.loginPage.getMessageWrongPassword()
+		Assert.assertTrue(this.loginPage.getMessageWrongCredentials()
 				.contains("We don't have an account with these credentials"),
 				 "[ERROR] Unexpected message");
 	}
